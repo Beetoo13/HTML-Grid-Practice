@@ -1,0 +1,551 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Botón hamburguesa */
+
+.movilNav {
+  width: 100%;
+  height: 50px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+
+.movilNav a {
+  padding-left: 10px;
+  text-decoration: none;
+  pointer-events: none;
+  color: black;
+  font-weight: bold;
+}
+
+.movilNav i {
+  padding-right: 10px;
+}
+
+/* Fondo Barra de navegación */
+
+.landingPage {
+  width: 100%;
+  height: 100vh;
+  background-image: url("imgs/ovilee\ flag.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+.landingPage h1 {
+  font-size: 40px;
+}
+
+.landingPage .buttons {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Barra de navegación */
+
+.buttons {
+  display: flex;
+  justify-content: start;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+/* Contenedores */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 65% 1fr;
+}
+
+.container2 {
+  width: 100%;
+  height: 100vh;
+  line-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 65%;
+}
+
+.container3 {
+  width: 100%;
+  height: 100vh;
+  line-height: 100vh;
+  display: grid;
+  grid-template-columns: 65% 1fr;
+}
+
+.container .img1 {
+  min-height: 250px;
+  min-width: 70%;
+}
+
+/* OtherImgs container */
+
+.otherImgs1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.otherImgs2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.otherImgs3 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+/* Imagenes */
+
+.img1 {
+  background-image: url("imgs/41308816300_6b9ea654c7_o.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+
+.img1:hover {
+  filter: brightness(80%);
+}
+
+.img2 {
+  background-image: url("imgs/48620532892_1a0140e231_o.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+
+.img2:hover {
+  filter: brightness(80%);
+}
+
+.img3 {
+  background-image: url("imgs/48929845467_3d8d7c97d5_o.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+
+.img3:hover {
+  filter: brightness(80%);
+}
+
+.img4 {
+  background-image: url("imgs/_E3A7181.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+
+.img4:hover {
+  filter: brightness(80%);
+}
+
+.img5 {
+  background-image: url("imgs/48621328341_87fc120671_c.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+
+.img5:hover {
+  filter: brightness(80%);
+}
+
+.img6 {
+  background-image: url("imgs/41307355731_4bb45653e6_o.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+
+.img6:hover {
+  filter: brightness(80%);
+}
+
+.img7 {
+  background-image: url("imgs/LiquidUpdate-bts-19+\(1\).jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+
+.img7:hover {
+  filter: brightness(80%);
+}
+
+.img8 {
+  background-image: url("imgs/1UP-TLU-BTS-56+\(1\).jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+
+.img8:hover {
+  filter: brightness(80%);
+}
+
+.img9 {
+  background-image: url("imgs/47602548681_5965b74433_o.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+
+.img9:hover {
+  filter: brightness(80%);
+}
+
+.firstDescription {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.firstDescription .title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 120px;
+  font-size: 2rem;
+}
+
+.firstDescription .description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+/* img doublelift */
+
+.imgDoublelift {
+  width: 1000px;
+  height: 667px;
+  margin: auto;
+  background-image: url("imgs/doublelift.jpg");
+}
+
+.quote {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  padding-top: 50px;
+  font-size: 1.5rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 2px;
+}
+.quote h3 {
+  font-size: 1.2rem;
+}
+
+.description2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+  padding-top: 50px;
+  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.description2 h1 {
+  font-size: 3rem;
+}
+
+/* Contenedor del video */
+
+.videoYoutube {
+  width: 100%;
+  height: 100vh;
+  background-image: url("imgs/cherry-blossom-wallpaper-1308739892.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Formulario */
+
+.form {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+/* Footer */
+
+.footer .containerFooter {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  padding-left: 50px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.autor {
+  padding-right: 50px;
+  color: white;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 1076px) {
+  .movilNav {
+    width: 100%;
+    height: 60px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .landingPage {
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  .movilNav a {
+    padding-left: 20px;
+    text-decoration: none;
+    pointer-events: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .movilNav i {
+    padding-right: 20px;
+    font-size: 1.5rem;
+  }
+
+  .landingPage {
+    width: 100%;
+    height: 100vh;
+    background-image: url("imgs/ovilee\ flag.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .landingPage h1 {
+    display: none;
+  }
+
+  .landingPage .buttons {
+    display: none;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .container .img1 {
+    min-height: 250px;
+  }
+
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .container2 .img4 {
+    min-height: 250px;
+  }
+
+  .container3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .container3 .img7 {
+    min-height: 250px;
+  }
+
+  .otherImgs1 {
+    min-height: 500px;
+  }
+
+  .otherImgs2 {
+    min-height: 500px;
+  }
+
+  .otherImgs3 {
+    min-height: 500px;
+  }
+
+  .firstDescription .title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 120px;
+    font-size: 1rem;
+  }
+
+  .firstDescription .description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    line-height: 2;
+  }
+
+  .imgDoublelift {
+    width: 80%;
+    height: 210px;
+    margin: auto;
+    background-image: url("imgs/doublelift.jpg");
+    background-position: center;
+    background-size: contain;
+  }
+
+  .quote {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+    font-size: 0.5rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 0px;
+  }
+  .quote h3 {
+    font-size: 0.5rem;
+  }
+
+  .description2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    padding-top: 50px;
+    margin: auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 2;
+  }
+
+  .description2 h1 {
+    font-size: 1rem;
+    padding-top: 5px;
+  }
+
+  .videoYoutube {
+    width: 100%;
+    height: 200px;
+    background-image: url("imgs/cherry-blossom-wallpaper-1308739892.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+  }
+
+  .footer .containerFooter {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .links {
+    padding-left: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+  }
+
+  .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+  }
+
+  .autor {
+    padding-right: 0px;
+    color: white;
+    font-size: 0.8rem;
+  }
+}
